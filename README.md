@@ -1,7 +1,7 @@
 # FPGA Comparator
  
 ## Objective:
-Use VHDL to design a 2-bit comparator and implement it on an FPGA chip on Basys3 board. Then test proper functionality of the circuit. The FPGA board's slide switches should be used for inputting two 2-bit numbers, and the comparator outputs, three of them, should be mapped to any three LEDs available on the board.
+Use VHDL to design a 2-bit comparator and implement it on an FPGA chip on a Basys3 board. Then test proper functionality of the circuit. The FPGA board's slide switches should be used for inputting two 2-bit numbers, and the comparator outputs, three of them, should be mapped to any three LEDs available on the board.
 
 ## Testing:
 The initial test of the source code was to ensure that it could successfully be used for a synthesis, implementation, and bitstream. The source code did not pass on the first attempt, so it was modified using suggestions from the Vivado log until a bitstream could successfully be generated.
